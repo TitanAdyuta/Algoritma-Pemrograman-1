@@ -1,0 +1,25 @@
+#include <stdio.h> // pustaka atau library yang kita gunakan nantinya
+#include <iostream>
+#include <string>
+
+using namespace std; // perintah mempersingkat koding kita
+
+int main()
+{
+    // Deklarasi dan pengisian data (variabel)
+    string nama = "Titan Adyuta Friandra";
+    int umur = 19;
+    string agama = "Islam";
+    string ttl = "Padang Panjang, 11 September 2006";
+    string asal = "Padang Panjang";
+
+    // Menampilkan output ke layar
+    cout << "=== Data Diri ===" << endl;
+    cout << "Nama                 : " << nama << endl;
+    cout << "Umur                 : " << umur << " tahun" << endl;
+    cout << "Agama                : " << agama << endl;
+    cout << "Tempat/Tanggal Lahir : " << ttl << endl;
+    cout << "Asal                 : " << asal << endl;
+
+    return 0; // Praktik yang baik untuk mengakhiri program C++
+}
