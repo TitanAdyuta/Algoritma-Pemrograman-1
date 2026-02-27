@@ -1,25 +1,27 @@
-#include <stdio.h> // pustaka atau library yang kita gunakan nantinya
+#include <stdio.h> 
 #include <iostream>
 #include <string>
 
-using namespace std; // perintah mempersingkat koding kita
+using namespace std; 
 
 int main()
 {
-    // Deklarasi dan pengisian data (variabel)
-    string nama = "Titan Adyuta Friandra";
-    int umur = 19;
-    string agama = "Islam";
-    string ttl = "Padang Panjang, 11 September 2006";
-    string asal = "Padang Panjang";
+    string Nama = "Titan Adyuta Friandra";
+    int Umur = 19;
+    int NIM = 25364090;
+    string Program_Studi = "Teknik Elektro";
+    string Agama = "Islam";
+    string TTL = "Padang Panjang, 11 September 2006";
+    string Asal = "Padang Panjang";
 
-    // Menampilkan output ke layar
     cout << "=== Data Diri ===" << endl;
-    cout << "Nama                 : " << nama << endl;
-    cout << "Umur                 : " << umur << " tahun" << endl;
-    cout << "Agama                : " << agama << endl;
-    cout << "Tempat/Tanggal Lahir : " << ttl << endl;
-    cout << "Asal                 : " << asal << endl;
+    cout << "Nama                 : " << Nama << endl;
+    cout << "NIM                  : " << NIM << endl;
+    cout << "Program_Studi        : " << Program_Studi << endl;
+    cout << "Umur                 : " << Umur << " tahun" << endl;
+    cout << "Agama                : " << Agama << endl;
+    cout << "Tempat/Tanggal Lahir : " << TTL << endl;
+    cout << "Asal                 : " << Asal << endl;
 
-    return 0; // Praktik yang baik untuk mengakhiri program C++
+    return 0; 
 }
